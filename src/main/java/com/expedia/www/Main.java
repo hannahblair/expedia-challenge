@@ -13,12 +13,22 @@ public class Main {
 		System.out.println("Enter 3 to exit application");
 		Scanner in = new Scanner(System.in);
 		int input = in.nextInt();
+		String url = "";
+		//String old;
 		if(input==3)
 		{
 			System.exit(1);
 		}
 		else if(input == 1)
 		{
+			System.out.println("Enter URL: ");
+			url = in.nextLine();
+			System.out.println("Which element would you like to edit?");
+
+		}
+		else if(input ==2)
+		{
+			//System.out.println(url);
 
 		}
 
